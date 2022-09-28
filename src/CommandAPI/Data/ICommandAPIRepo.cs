@@ -6,10 +6,10 @@ using CommandAPI.Models; //bring in the namespace for our Models.
 
 namespace CommandAPI.Data
 {
-    public interface ICommandAPIRepo
+    public interface ICommandAPIRepo // Specify a public interface and give it name starting with capital 'I'
     {
         bool SaveChanges();
-        IEnumerable<Command> GetAllCommands();
+        IEnumerable<Command> GetAllCommands(); // methods of the interface consumers can use to obtain and manipulate data.
         Command GetCommandById(int id);
         void CreateCommand(Command cmd);
         void UpdateCommand(Command cmd);

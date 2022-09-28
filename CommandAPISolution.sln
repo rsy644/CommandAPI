@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B02EAC5-2EFA-4ED3-B6C3-69C8E04FE968}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandAPI", "src\CommandAPI\CommandAPI.csproj", "{5C916FE7-2435-42D0-AE6E-5EE2B1F7D12A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandAPI", "src\CommandAPI\CommandAPI.csproj", "{5C916FE7-2435-42D0-AE6E-5EE2B1F7D12A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{06E3B389-15F8-49B1-ACA3-850A47517461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandAPI.Tests", "test\CommandAPI.Tests\CommandAPI.Tests.csproj", "{63B5E087-FF45-4364-AC43-70248FBEEC39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandAPI.Tests", "test\CommandAPI.Tests\CommandAPI.Tests.csproj", "{63B5E087-FF45-4364-AC43-70248FBEEC39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5C916FE7-2435-42D0-AE6E-5EE2B1F7D12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -49,8 +46,14 @@ Global
 		{63B5E087-FF45-4364-AC43-70248FBEEC39}.Release|x86.ActiveCfg = Release|Any CPU
 		{63B5E087-FF45-4364-AC43-70248FBEEC39}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5C916FE7-2435-42D0-AE6E-5EE2B1F7D12A} = {1B02EAC5-2EFA-4ED3-B6C3-69C8E04FE968}
 		{63B5E087-FF45-4364-AC43-70248FBEEC39} = {06E3B389-15F8-49B1-ACA3-850A47517461}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FF72371-A388-4396-9B7B-922839282DFE}
 	EndGlobalSection
 EndGlobal
