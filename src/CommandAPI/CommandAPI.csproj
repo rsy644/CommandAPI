@@ -1,7 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+	<UserSecretsId>A1243F83-005D-4A72-A252-ED4A8212C0F3</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
   	<PackageReference Include="Microsoft.EntityFrameworkCore" version="3.1.1" />
