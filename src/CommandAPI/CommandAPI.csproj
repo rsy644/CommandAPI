@@ -5,8 +5,11 @@
 	<UserSecretsId>A1243F83-005D-4A72-A252-ED4A8212C0F3</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-  	<PackageReference Include="Microsoft.EntityFrameworkCore" version="3.1.1" />
-	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.1" >
+	  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="3.1.4" />
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.4" />
+  	<PackageReference Include="Microsoft.EntityFrameworkCore" version="3.1.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		  <PrivateAssets>all</PrivateAssets>
 	  </PackageReference>

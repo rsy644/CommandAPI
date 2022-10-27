@@ -4,14 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace CommandAPI.Models
+namespace CommandAPI.Dtos
 {
-    public class Command
+    public class CommandUpdateDto
     {
-        [Key]
-        [Required]
-        public int Id { get; set; }
-
         [Required]
         [MaxLength(250)]
         public string HowTo { get; set; }
@@ -21,6 +17,6 @@ namespace CommandAPI.Models
 
         [Required]
         public string CommandLine { get; set; }
-       
+
     }
 }
